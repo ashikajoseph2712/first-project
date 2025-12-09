@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int temp,a,b;
+printf("Enter a=");
+scanf("%d",&a);
+printf("Enter b=");
+scanf("%d",&b);
+{ 
+temp=a;
+a=b;
+b=temp;
+}
+printf("Swapped a =%d\n",a);
+printf("Swapped b =%d",b);
+
+return 0;
+}
